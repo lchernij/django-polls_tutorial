@@ -6,6 +6,7 @@ Tutorial
 - [Part 2](https://docs.djangoproject.com/en/4.0/intro/tutorial02/) - Set up the database, create your first model, and get a quick introduction to Django’s automatically-generated admin site.
 - [Part 3](https://docs.djangoproject.com/en/4.0/intro/tutorial03/) - Focus on creating the public interface – “views.”
 - [Part 4](https://docs.djangoproject.com/en/4.0/intro/tutorial04/) - Froms
+- [Part 5](https://docs.djangoproject.com/en/4.0/intro/tutorial05/) - Automated testing
 
 ## Python
 
@@ -42,3 +43,7 @@ https://www.psycopg.org/install/
 ## "Tinker"
 
 `python3 manage.py shell`
+
+## Run tests
+
+`python manage.py test _APP_NAME_`
