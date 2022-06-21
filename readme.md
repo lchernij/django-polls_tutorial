@@ -8,6 +8,7 @@ Tutorial
 - [Part 4](https://docs.djangoproject.com/en/4.0/intro/tutorial04/) - Froms
 - [Part 5](https://docs.djangoproject.com/en/4.0/intro/tutorial05/) - Automated testing
 - [Part 6](https://docs.djangoproject.com/en/4.0/intro/tutorial06/) - Customize app look
+- [Part 7](https://docs.djangoproject.com/en/4.0/intro/tutorial07/) - Customize admin form
 
 ## Python
 
@@ -47,4 +48,10 @@ https://www.psycopg.org/install/
 
 ## Run tests
 
-`python manage.py test _APP_NAME_`
+`python3 manage.py test _APP_NAME_`
+
+## Find Django source files
+
+`python3 -c "import django; print(django.__path__)"`
+
+In my case: `\\wsl.localhost\Pessoal\home\lcher\.local\lib\python3.10\site-packages\django\contrib\admin\templates\admin`
