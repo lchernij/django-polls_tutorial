@@ -1,8 +1,6 @@
 name: Django CI
 
 on:
-  push:
-    branches: ["main"]
   pull_request:
     branches: ["main"]
 
@@ -43,4 +41,11 @@ jobs:
           coverage run manage.py test
       - name: Run report
         run: |
-          coverage report
+          coverage report > .github/workflows/coverage-summary
+
+      - uses: harupy/comment-on-pr@master
+      - name: Comment coverage on Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: coverage-summary

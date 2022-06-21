@@ -14,7 +14,7 @@
 
 ### Extra
 
-- Added Teste Coverage
+- [Added Teste Coverage](https://adamj.eu/tech/2019/04/30/getting-a-django-application-to-100-percent-coverage/#:~:text=Getting%20a%20Django%20Application%20to%20100%25%20Test%20Coverage,is%20the%20Python%20tool%20for%20measuring%20code%20coverage.)
 - Added Github actions to run tests when Pull Request is open
 
 # General
