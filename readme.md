@@ -7,6 +7,7 @@ Tutorial
 - [Part 3](https://docs.djangoproject.com/en/4.0/intro/tutorial03/) - Focus on creating the public interface – “views.”
 - [Part 4](https://docs.djangoproject.com/en/4.0/intro/tutorial04/) - Froms
 - [Part 5](https://docs.djangoproject.com/en/4.0/intro/tutorial05/) - Automated testing
+- [Part 6](https://docs.djangoproject.com/en/4.0/intro/tutorial06/) - Customize app look
 
 ## Python
 
